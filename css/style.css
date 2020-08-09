@@ -1,0 +1,85 @@
+
+body {
+  background: linear-gradient(to bottom, rgba(50, 20, 20, 0.8) 0%, rgba(10, 40, 60, 0.9)90%),url('https://unsplash.com/photos/usWE9pOuTfE/download?force=true&w=1920') center top fixed no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+header.masthead {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+header.masthead h1 {
+  font-size: 2.25rem;
+}
+@media (min-width: 992px) {
+  header.masthead {
+    height: 100vh;
+    min-height: 40rem;
+    padding-top: 4.5rem;
+    padding-bottom: 0;
+  }
+  header.masthead p {
+    font-size: 1.15rem;
+  }
+  header.masthead h1 {
+    font-size: 3rem;
+  }
+}
+@media (min-width: 1200px) {
+  header.masthead h1 {
+    font-size: 3.5rem;
+  }
+}
+
+.bg-custom {
+  background-color: #e34040;
+}
+.size-custom {
+  font-size: 20px;
+}
+
+progress {
+  background-color: #e34040;
+  color: #e34040;
+  height: 30px;
+  vertical-align: center;
+  width: 90%;
+  border-radius: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+/*
+progress::-moz-progress-bar {
+  background: lightcolor;
+}*/
+
+progress::-webkit-progress-value {
+  background: #e34040;
+  border:20px;
+  margin: 0;
+  border-radius: 0px 50px 50px 0px;
+  width: 70%;
+}
+
+progress::-webkit-progress-bar {
+  background: white;
+  margin: 0 auto;
+}
+
+h5 {
+  text-align: center;
+  padding-top: 15px;
+  vertical-align: center;
+  line-height: 90px;
+  color: white;
+}
+
+
